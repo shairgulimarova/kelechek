@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  font-weight: 1000;
+
+}
+
+
+.top-screen{
+  min-height: 782px;
+  padding-top: 30px;   
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/we.jfif");
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 90px 80px 90px;
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 100px 0 0 ;
+    list-style: none;
+}
+
+.menu-item + .menu-item {
+    margin-left: 15 px;
+}
+
+.menu-link {
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 50px; 
+    color: #000;
+  }
+
+  .logo {
+  max-width: 100px;
+  margin-right: 90 px;
+}
+
+.about{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 750px;     
+}
+
+.about-title{
+  margin: 0 0 15px;
+  font-size: 70px;
+  color: rgba(245, 118, 1, 1);
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.about-descr{
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 120%;
+}
+
+
+.about-btn {
+    padding: 12px 70px 12px 70px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-weight: 800; 
+    color: #000;  
+    background-color: rgba(245, 118, 1, 1)
+  }
+
+  .about-btn:hover{
+    background-color: rgb(233, 142, 57); 
+  }
+  
